@@ -1,0 +1,27 @@
+{
+  "name": "zenoflair-backend",
+  "version": "1.0.0",
+  "description": "node js backend for zenoflair",
+  "main": "index.js",
+  "scripts": {
+    "dev:gateway": "cd gateway && npm run dev",
+    "dev:auth": "cd services/auth-service && npm run dev",
+    "dev:profile": "cd services/profile-service && npm run dev",
+    "dev:content": "cd services/content-service && npm run dev",
+    "dev:image": "cd services/image-service && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zenoflair01/zenoflair-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zenoflair01/zenoflair-backend/issues"
+  },
+  "homepage": "https://github.com/Zenoflair01/zenoflair-backend#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.58.0"
+  }
+}
